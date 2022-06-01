@@ -8,20 +8,16 @@ namespace ChristmasWithTypes
         {
             var xmas = new Christmas();
 
-            var xmasDay = Christmas.Day.Thursday;
+            var xmasDay = Christmas.Day.Thu;
 
             
-            xmas . Kris Kringle = null;
+            xmas.Santa = "Kris Kringle";
+            xmas.Presents =  new string[3]{ "Money", "Mercedes", "House" }; 
+            xmas.TreeHeight = 10;
 
-           
-            xmas.Presents =  new string[3]{ Money, Mercedes, House }; 
-
-            
-            xmas.TreeHeight height 10 = null;
-
-            Console.WriteLine($"This year christmas falls on {Thursday} \n");
-            Console.WriteLine($"Our tree will be {xmas.TreeHeight} 10 \n");
-            Console.WriteLine("Money, Mercedes, HOuse:");
+            Console.WriteLine($"This year christmas falls on {xmasDay} \n");
+            Console.WriteLine($"Our tree will be {xmas.TreeHeight} feet high\n");
+            Console.WriteLine("Here are the presents we would like: ");
 
             foreach (var present in xmas.Presents)
             {
